@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/diamondburned/arikawa/v3/utils/json"
+	"github.com/kitediscord/arikawa/v3/utils/json"
 )
 
 var ErrInvalidImageCT = errors.New("unknown image content-type")

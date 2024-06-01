@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/session"
-	"github.com/diamondburned/arikawa/v3/utils/handler"
+	"github.com/kitediscord/arikawa/v3/api"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/session"
+	"github.com/kitediscord/arikawa/v3/utils/handler"
 )
 
 // Shard defines a shard gateway interface that the shard manager can use.

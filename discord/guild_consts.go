@@ -1,7 +1,7 @@
 package discord
 
 import (
-	"github.com/diamondburned/arikawa/v3/utils/json/enum"
+	"github.com/kitediscord/arikawa/v3/utils/json/enum"
 )
 
 // Guild.MaxPresences is this value when it's 0.

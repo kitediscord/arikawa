@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/discord"
+	"github.com/kitediscord/arikawa/v3/discord"
 )
 
 const PerseveranceTime = 50 * time.Minute

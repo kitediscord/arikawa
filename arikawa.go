@@ -30,10 +30,11 @@ package arikawa
 
 import (
 	// Low level packages.
-	_ "github.com/diamondburned/arikawa/v3/api"
-	_ "github.com/diamondburned/arikawa/v3/gateway"
+	_ "github.com/kitediscord/arikawa/v3/api"
+	_ "github.com/kitediscord/arikawa/v3/gateway"
+
 	// Packages that most should use.
-	_ "github.com/diamondburned/arikawa/v3/session"
-	_ "github.com/diamondburned/arikawa/v3/state"
-	_ "github.com/diamondburned/arikawa/v3/voice"
+	_ "github.com/kitediscord/arikawa/v3/session"
+	_ "github.com/kitediscord/arikawa/v3/state"
+	_ "github.com/kitediscord/arikawa/v3/voice"
 )

@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/internal/backoff"
+	"github.com/kitediscord/arikawa/v3/api"
+	"github.com/kitediscord/arikawa/v3/discord"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/internal/backoff"
 )
 
 func updateIdentifier(ctx context.Context, id *gateway.Identifier) (url string, err error) {

@@ -12,14 +12,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/session"
-	"github.com/diamondburned/arikawa/v3/session/shard"
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/state/store/defaultstore"
-	"github.com/diamondburned/arikawa/v3/utils/bot/extras/shellwords"
-	"github.com/diamondburned/arikawa/v3/utils/handler"
+	"github.com/kitediscord/arikawa/v3/api"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/session"
+	"github.com/kitediscord/arikawa/v3/session/shard"
+	"github.com/kitediscord/arikawa/v3/state"
+	"github.com/kitediscord/arikawa/v3/state/store/defaultstore"
+	"github.com/kitediscord/arikawa/v3/utils/bot/extras/shellwords"
+	"github.com/kitediscord/arikawa/v3/utils/handler"
 )
 
 // Prefixer checks a message if it starts with the desired prefix. By default,

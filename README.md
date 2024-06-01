@@ -1,50 +1,43 @@
 # arikawa
 
-[![ Pipeline Status ][pipeline_img    ]][pipeline    ]
+[![ Pipeline Status ][pipeline_img ]][pipeline ]
 [![ Report Card     ][goreportcard_img]][goreportcard]
-[![ Godoc Reference ][pkg.go.dev_img  ]][pkg.go.dev  ]
-[![ Examples        ][examples_img    ]][examples    ]
-[![ Discord Gophers ][dgophers_img    ]][dgophers    ]
+[![ Godoc Reference ][pkg.go.dev_img ]][pkg.go.dev ]
+[![ Examples        ][examples_img ]][examples ]
+[![ Discord Gophers ][dgophers_img ]][dgophers ]
 [![ Hime Arikawa    ][himeArikawa_img ]][himeArikawa ]
 
 A Golang library for the Discord API.
 
-[dgophers]:     https://discord.gg/7jSf85J
+[dgophers]: https://discord.gg/7jSf85J
 [dgophers_img]: https://img.shields.io/badge/Discord%20Gophers-%23arikawa-%237289da?style=flat-square
-
-[examples]:     https://github.com/diamondburned/arikawa/tree/v3/0-examples
+[examples]: https://github.com/diamondburned/arikawa/tree/v3/0-examples
 [examples_img]: https://img.shields.io/badge/Example-.%2F0--examples%2F-blueviolet?style=flat-square
-
-[pipeline]:     https://github.com/diamondburned/arikawa/actions/workflows/test.yml
+[pipeline]: https://github.com/diamondburned/arikawa/actions/workflows/test.yml
 [pipeline_img]: https://img.shields.io/github/actions/workflow/status/diamondburned/arikawa/test.yml?style=flat-square&label=Tests
-
-[pkg.go.dev]:     https://pkg.go.dev/github.com/diamondburned/arikawa/v3
+[pkg.go.dev]: https://pkg.go.dev/github.com/kitediscord/arikawa/v3
 [pkg.go.dev_img]: https://img.shields.io/badge/%E2%80%8B-reference-007d9c?logo=go&logoColor=white&style=flat-square
-
-[himeArikawa]:     https://hime-goto.fandom.com/wiki/Hime_Arikawa
+[himeArikawa]: https://hime-goto.fandom.com/wiki/Hime_Arikawa
 [himeArikawa_img]: https://img.shields.io/badge/Hime-Arikawa-ea75a2?style=flat-square
-
-[goreportcard]:     https://goreportcard.com/report/github.com/diamondburned/arikawa
+[goreportcard]: https://goreportcard.com/report/github.com/diamondburned/arikawa
 [goreportcard_img]: https://goreportcard.com/badge/github.com/diamondburned/arikawa?style=flat-square&label=Go%20Report
-
 
 ## Library Highlights
 
-- More modularity with components divided up into independent packages, such as
-  the API client and the Websocket Gateway being fully independent.
-- Clear separation of models: API and Gateway models are never mixed together so
-  to not be confusing.
-- Extend and intercept Gateway events, allowing for use cases such as reading
-  deleted messages.
-- Pluggable Gateway cache allows for custom caching implementations such as
-  Redis, automatically falling back to the API if needed.
-- Typed Snowflakes make it much harder to accidentally use the wrong ID (e.g.
-  it is impossible to use a channel ID as a message ID).
-- Working user account support, with much of them in [ningen][ningen]. Please
-  do not use this for self-botting, as that is against Discord's ToS.
+-   More modularity with components divided up into independent packages, such as
+    the API client and the Websocket Gateway being fully independent.
+-   Clear separation of models: API and Gateway models are never mixed together so
+    to not be confusing.
+-   Extend and intercept Gateway events, allowing for use cases such as reading
+    deleted messages.
+-   Pluggable Gateway cache allows for custom caching implementations such as
+    Redis, automatically falling back to the API if needed.
+-   Typed Snowflakes make it much harder to accidentally use the wrong ID (e.g.
+    it is impossible to use a channel ID as a message ID).
+-   Working user account support, with much of them in [ningen][ningen]. Please
+    do not use this for self-botting, as that is against Discord's ToS.
 
 [ningen]: https://github.com/diamondburned/ningen
-
 
 ## Examples
 
@@ -93,11 +86,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/api/cmdroute"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
+	"github.com/kitediscord/arikawa/v3/api"
+	"github.com/kitediscord/arikawa/v3/api/cmdroute"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/state"
+	"github.com/kitediscord/arikawa/v3/utils/json/option"
 )
 
 var commands = []api.CreateCommandData{{Name: "ping", Description: "Ping!"}}
@@ -121,7 +114,6 @@ func main() {
 	}
 }
 ```
-
 
 ## Testing
 

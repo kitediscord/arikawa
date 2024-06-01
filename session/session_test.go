@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/internal/testenv"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/internal/testenv"
 )
 
 func TestSession(t *testing.T) {

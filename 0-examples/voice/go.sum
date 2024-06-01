@@ -1,5 +1,5 @@
-github.com/diamondburned/arikawa/v3 v3.0.0-rc.6 h1:lALIGxvojmcO/T6zeO53OzFXsuVWhXZ0Q/lYPehiKg0=
-github.com/diamondburned/arikawa/v3 v3.0.0-rc.6/go.mod h1:5jBSNnp82Z/EhsKa6Wk9FsOqSxfVkNZDTDBPOj47LpY=
+github.com/kitediscord/arikawa/v3 v3.0.0-rc.6 h1:lALIGxvojmcO/T6zeO53OzFXsuVWhXZ0Q/lYPehiKg0=
+github.com/kitediscord/arikawa/v3 v3.0.0-rc.6/go.mod h1:5jBSNnp82Z/EhsKa6Wk9FsOqSxfVkNZDTDBPOj47LpY=
 github.com/diamondburned/oggreader v0.0.0-20201118014549-87df9534b647 h1:TJWvffl1cMLzSOvw8Wv3CQicuU9NaKDKXvBfh5T9W00=
 github.com/diamondburned/oggreader v0.0.0-20201118014549-87df9534b647/go.mod h1:xEJuvlmPx1wBKUWkx+MUp1ULSMQwSM9FS+bnFJhPQkk=
 github.com/gorilla/schema v1.2.0 h1:YufUaxZYCKGFuAq3c96BOhjgd5nmXiOY9NGzF247Tsc=

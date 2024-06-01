@@ -4,12 +4,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/session"
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/state/store"
-	"github.com/diamondburned/arikawa/v3/utils/bot"
+	"github.com/kitediscord/arikawa/v3/discord"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/session"
+	"github.com/kitediscord/arikawa/v3/state"
+	"github.com/kitediscord/arikawa/v3/state/store"
+	"github.com/kitediscord/arikawa/v3/utils/bot"
 )
 
 func TestAdminOnly(t *testing.T) {

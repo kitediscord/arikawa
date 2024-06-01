@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/state"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/state"
 )
 
 func Example() {

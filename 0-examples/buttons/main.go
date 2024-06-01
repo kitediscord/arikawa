@@ -5,11 +5,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/session"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
+	"github.com/kitediscord/arikawa/v3/api"
+	"github.com/kitediscord/arikawa/v3/discord"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/session"
+	"github.com/kitediscord/arikawa/v3/utils/json/option"
 )
 
 // To run, do `GUILD_ID="GUILD ID" BOT_TOKEN="TOKEN HERE" go run .`

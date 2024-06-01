@@ -16,8 +16,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
+	"github.com/kitediscord/arikawa/v3/discord"
+	"github.com/kitediscord/arikawa/v3/utils/ws"
 )
 
 // Version represents the current version of the Discord Gateway Gateway this package uses.

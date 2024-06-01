@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"mime/multipart"
 
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
-	"github.com/diamondburned/arikawa/v3/utils/sendpart"
+	"github.com/kitediscord/arikawa/v3/discord"
+	"github.com/kitediscord/arikawa/v3/utils/json/option"
+	"github.com/kitediscord/arikawa/v3/utils/sendpart"
 )
 
 const AttachmentSpoilerPrefix = "SPOILER_"

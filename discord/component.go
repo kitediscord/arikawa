@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/diamondburned/arikawa/v3/internal/rfutil"
-	"github.com/diamondburned/arikawa/v3/utils/json"
+	"github.com/kitediscord/arikawa/v3/internal/rfutil"
+	"github.com/kitediscord/arikawa/v3/utils/json"
 )
 
 // ComponentType is the type of a component.

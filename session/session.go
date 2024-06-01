@@ -10,13 +10,13 @@ import (
 	"log"
 	"sync"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/api/webhook"
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/utils/handler"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
-	"github.com/diamondburned/arikawa/v3/utils/ws/ophandler"
+	"github.com/kitediscord/arikawa/v3/api"
+	"github.com/kitediscord/arikawa/v3/api/webhook"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/utils/handler"
+	"github.com/kitediscord/arikawa/v3/utils/json/option"
+	"github.com/kitediscord/arikawa/v3/utils/ws"
+	"github.com/kitediscord/arikawa/v3/utils/ws/ophandler"
 )
 
 // ErrMFA is returned if the account requires a 2FA code to log in.

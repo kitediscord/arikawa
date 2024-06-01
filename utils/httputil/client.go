@@ -10,8 +10,8 @@ import (
 	"mime/multipart"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/utils/httputil/httpdriver"
-	"github.com/diamondburned/arikawa/v3/utils/json"
+	"github.com/kitediscord/arikawa/v3/utils/httputil/httpdriver"
+	"github.com/kitediscord/arikawa/v3/utils/json"
 )
 
 // StatusTooManyRequests is the HTTP status code discord sends on rate-limiting.

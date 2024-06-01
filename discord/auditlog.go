@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/utils/json"
+	"github.com/kitediscord/arikawa/v3/utils/json"
 )
 
 // https://discord.com/developers/docs/resources/audit-log#audit-log-object

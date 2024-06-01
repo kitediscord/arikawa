@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/state"
-	"github.com/diamondburned/arikawa/v3/utils/handler"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/state"
+	"github.com/kitediscord/arikawa/v3/utils/handler"
 )
 
 // To run, do `BOT_TOKEN="TOKEN HERE" go run .`

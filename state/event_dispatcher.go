@@ -1,7 +1,7 @@
 package state
 
 import (
-	"github.com/diamondburned/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/gateway"
 )
 
 func (s *State) handleReady(ev *gateway.ReadyEvent) {

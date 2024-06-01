@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/utils/ws"
+	"github.com/kitediscord/arikawa/v3/utils/ws"
 )
 
 // ErrManagerClosed is returned when a Manager that is already closed is dialed,

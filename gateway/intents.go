@@ -1,8 +1,8 @@
 package gateway
 
 import (
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
+	"github.com/kitediscord/arikawa/v3/discord"
+	"github.com/kitediscord/arikawa/v3/utils/ws"
 )
 
 // Intents for the new Discord API feature, documented at

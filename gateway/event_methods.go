@@ -2,7 +2,7 @@
 
 package gateway
 
-import "github.com/diamondburned/arikawa/v3/utils/ws"
+import "github.com/kitediscord/arikawa/v3/utils/ws"
 
 func init() {
 	OpUnmarshalers.Add(

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/internal/testenv"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
+	"github.com/kitediscord/arikawa/v3/api"
+	"github.com/kitediscord/arikawa/v3/internal/testenv"
+	"github.com/kitediscord/arikawa/v3/utils/ws"
 )
 
 func doLog(t *testing.T) {

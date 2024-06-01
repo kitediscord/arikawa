@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/diamondburned/arikawa/v3/api"
-	"github.com/diamondburned/arikawa/v3/internal/lazytime"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
+	"github.com/kitediscord/arikawa/v3/api"
+	"github.com/kitediscord/arikawa/v3/internal/lazytime"
+	"github.com/kitediscord/arikawa/v3/utils/ws"
 )
 
 var (

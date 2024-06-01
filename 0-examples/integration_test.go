@@ -12,7 +12,7 @@ import (
 
 	_ "embed"
 
-	"github.com/diamondburned/arikawa/v3/internal/testenv"
+	"github.com/kitediscord/arikawa/v3/internal/testenv"
 )
 
 //go:embed integration_exclude.txt

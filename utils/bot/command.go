@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/diamondburned/arikawa/v3/gateway"
-	"github.com/diamondburned/arikawa/v3/utils/ws"
+	"github.com/kitediscord/arikawa/v3/gateway"
+	"github.com/kitediscord/arikawa/v3/utils/ws"
 )
 
 var (

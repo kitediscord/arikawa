@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/diamondburned/arikawa/v3/discord"
-	"github.com/diamondburned/arikawa/v3/utils/httputil"
-	"github.com/diamondburned/arikawa/v3/utils/json/option"
+	"github.com/kitediscord/arikawa/v3/discord"
+	"github.com/kitediscord/arikawa/v3/utils/httputil"
+	"github.com/kitediscord/arikawa/v3/utils/json/option"
 )
 
 var (

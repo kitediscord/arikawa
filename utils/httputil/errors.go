@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/diamondburned/arikawa/v3/utils/json"
+	"github.com/kitediscord/arikawa/v3/utils/json"
 )
 
 // JSONError is returned if the request responds with an invalid JSON.
